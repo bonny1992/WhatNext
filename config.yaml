@@ -1,0 +1,11 @@
+port: 8000
+listen: 0.0.0.0
+listeners:
+  - qbt:
+      key: abcdefghijklmnopqrstuvwxyz
+      path_mappings:
+        - /mnt/local/downloads:/downloads
+  - deluge:
+      key: abcdefghijklmnopqrstuvwxyz1234
+      path_mappings:
+        - /mnt/local/downloads:/downloads
